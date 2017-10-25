@@ -1,7 +1,6 @@
 # include "includeAll.h"
 using namespace std;
-//function for sorting the array using insertion sort algorithm
-void sort (int array[], int size) {
+void sort (int array[], int size) { //function for sorting the array using insertion sort algorithm
 
 	int value = 0, hole = 0;
 	for (int i = 1; i < size; ++i) {
